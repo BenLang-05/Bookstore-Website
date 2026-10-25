@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# PHP generated/cache
+vendor/
+*.log
+tmp/
+cache/
+uploads/
+storage/
+
+# Secrets / local env
+.env
+.env.*
+
+# ignore database dumps 
+# *.sql
